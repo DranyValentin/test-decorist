@@ -1,0 +1,527 @@
+* 
+{
+	font-family: 'Futura MD';
+}
+
+.container
+{
+	width: 980px;
+	background: #fafafa;
+}
+
+h1
+{
+	font-size: 37px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #272727;
+
+	margin-bottom: 0;
+}
+
+.container p
+{
+	font-size: 24px;
+	font-style: italic;
+	font: bold;
+	color: #989898;
+
+	text-align: center;
+}
+
+ul
+{
+	display: inline-block;
+
+	width: 940px;
+
+	text-align: center;
+
+	margin: 35px 0 0;
+	padding: 0;
+	border-top: 1px solid #ededed;
+}
+
+li
+{
+	display: inline-block;
+
+	color: black;
+
+	position: relative;
+	top: -18px;
+	
+	padding-left: 10px;
+	margin: 0 70px;
+}
+
+li p:first-child
+{
+	display: inline-block;
+
+	width: 40px;
+	height: 40px;
+
+	font-size: 13px;
+
+	line-height: 32px;
+
+	border-radius: 50%;
+	border: 1px solid #989898;
+
+	background: #ffffff;
+
+}
+
+.nav1 p:first-child
+{
+	border-color: black;
+}
+
+.nav1 p
+{
+	color: black;
+}
+
+li p:last-child
+{
+	font-size: 24px;
+	font-style: italic;
+/*	color: #989898;*/
+}
+
+section.viewCart
+{
+	background: #ffffff;
+}
+
+section.viewCart h2,
+section.payment h2,
+section.additionalInfo h2
+{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.warning
+{
+	background: red;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #aaa;
+	margin-bottom: 4px;
+}
+
+.warning h3
+{
+	font-size: 19px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 15px 0;
+	
+}
+
+section a
+{
+	font-size: 13px;
+	font-style: normal;
+	/*color: none;*/
+
+	text-transform: uppercase;
+	text-decoration: none;
+
+	margin-left: 15px;
+}
+
+section.viewCart table
+{
+	font-size: 13px;
+
+	text-transform: uppercase;
+}
+
+section.viewCart table img
+{
+	margin-right: 10px;
+}
+
+section.viewCart table td
+{
+	font-weight: bold;
+
+	vertical-align: middle;
+}
+
+section.viewCart .prices
+{	
+	font-weight: bold;
+	color: #989898;
+
+	border-color: #f7f7f7;
+	background: #f7f7f7;
+}
+
+section.viewCart .prices td
+{	
+	width: 85%;
+
+	padding-right: 40px;
+	border: none;
+	text-align: right;
+}
+
+section.viewCart .totalPrice 
+{	
+	font-size: 16px;
+	color: #272727;
+}
+
+section.viewCart .totalPrice .promoCode 
+{	
+	font-size: 13px;
+	
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.viewPromo p
+{
+	display: inline-block;
+
+	font-size: 12px;
+	font-style: normal;
+
+	text-align: left;
+}
+
+.viewPromo p var
+{
+	font-style: normal;	
+}
+
+.butNextPayment
+{
+	text-align: right;
+}
+
+.butNextPayment a
+{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.butNextPayment button
+{
+	font-size: 16px;
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	background: #86a6ba;
+
+	padding: 10px 20px;
+}
+
+#tab2
+{
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+#tab2 h2
+{
+	padding-bottom: 17px;
+	margin-top: 14px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+#tab2 label
+{
+	margin-top: 10px;
+			text-transform: uppercase;
+}
+
+section.payment form label[for=firstName],
+section.payment form label[for=lastName]
+{
+	margin-top: 0;
+}
+
+section.payment #firstName,
+section.payment #lastName
+{
+	width: 93%;
+}
+
+section.payment #cardNumber
+{
+	width: 85%;
+}
+
+.payment .form-group-sm
+{
+	padding: 0;
+}
+
+.cvvWrap
+{
+	margin-left: -42px;
+}
+
+.sizeWrapSelectDateCard
+{
+	padding: 0 6px;
+}
+
+.selectMonthCard
+{
+	width: 86%;
+}
+
+#cvv
+{
+	width: 81%;
+}
+
+.checkbox
+{
+	margin-top: 5px;
+	padding-bottom: 18px;
+	margin-bottom: 15px;
+
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.congrats
+{
+	background: green;
+	color: white;
+
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #aaa;
+}
+
+.congrats h3
+{
+	font-size: 19px;
+/*	background: green;*/
+	text-transform: uppercase;
+}
+
+.congrats p
+{
+	font-size: 17px;
+	color: white;
+}
+
+.additionalInfo h2
+{
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #f7f7f7
+}
+
+.additionalInfo .inputBasicInfo
+{
+	font-size: 14px;
+
+	line-height: 3;
+}
+
+
+.additionalInfo .inputProduct
+{
+	width: 28%;
+}
+
+.additionalInfo .inputRoom
+{
+	width: 35%;
+}
+
+.additionalInfo .labelAddInfo,
+.additionalInfo .labelURL,
+.additionalInfo .labelYourDesignBoard
+{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.additionalInfo .labelAddInfo
+{
+	margin: 15px 0 3px;	
+}
+
+.additionalInfo textarea.form-control
+{
+	width: 100%;
+
+	font-size: 14px;
+}
+
+.additionalInfo .labelYourDesignBoard
+{
+	margin-top: 20px;
+}
+
+.additionalInfo .textUploadfotos
+{
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+input[type="file"]
+{
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.additionalInfo .inputURL
+{
+	width: 61%;
+}
+
+.wrapYourDesignBoard
+{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.additionalInfo .butYourDesignBoard
+{
+	width: 48%;
+
+	font-size: 12px;
+	font-weight: bold;
+	color: #86a6ba;
+
+	text-transform: uppercase;
+
+	background: #f2f2f2;
+}
+
+.additionalInfo .butYourDesignBoard:hover
+{
+	width: 48%;
+
+	color: #000000;
+
+	background: #eee;
+}
+
+.wrapButtonsSaveAndSend
+{
+	padding-top: 10px;
+}
+
+.butSaveDraft
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #86a6ba;
+
+	text-transform: uppercase;
+
+	background: #f2f2f2;
+
+	padding: 10px 20px;
+	margin-right: 10px;
+}
+
+.butSendDesinger
+{
+	font-size: 16px;
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	background: #86a6ba;
+
+	padding: 10px 20px;
+}
+
+.glyphicon-plus,
+.glyphicon-minus,
+.glyphicon-remove
+{
+	width: 13px;
+	height: 13px;
+
+	font-size: 10px;
+	color: #fff;
+
+	position: relative;
+    top: 0px;
+
+    padding: 1px 0 0 1px;
+    margin: 0 10px;
+
+	background: #86a6ba;
+	border-radius: 50%;
+}
+
+dialog
+{
+	width: 75%;
+	padding: 50px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 4px 2px #ccc;
+}
+
+dialog h1
+{
+	font-size: 36px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+
+}
+
+dialog h2
+{
+	font-weight: bold;
+	font-style: italic;
+
+	text-align: center;
+}
+
+dialog p
+{	
+	font-size: 19px;
+	font-weight: normal;
+	font-style: normal;
+
+	text-align: left;
+	line-height: 28px;
+}
+
+.thanks p
+{
+
+	margin: 0 auto;
+}
+
+.thanks a
+{
+
+	margin-top: 20px;
+	margin-left: 30%;
+}
+
+.glyphicon,
+.addPromo,
+.remove
+{
+	cursor: pointer;
+}
+
